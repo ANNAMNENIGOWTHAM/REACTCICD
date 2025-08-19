@@ -1,0 +1,19 @@
+{
+  "name": "reactcicd",
+  "version": "0.0.0",
+  "private": true,
+  "homepage": "https://github.com/ANNAMNENIGOWTHAM/REACTCICD",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
